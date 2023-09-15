@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { BsArrowsMove, BsCart2, BsFolder2Open, BsFolderPlus } from 'react-icons/bs'
+import { BsCart2, BsFolder2Open, BsFolderPlus } from 'react-icons/bs'
 import { FaBloggerB, FaFolderOpen, FaRegUserCircle } from 'react-icons/fa'
 import { FiUsers } from 'react-icons/fi'
 import { MdGrid4X4 } from 'react-icons/md'
