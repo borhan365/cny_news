@@ -1,0 +1,143 @@
+@media only screen and (max-width: 1200px){
+  /*Tablets [601px -> 1200px]*/
+}
+
+
+
+@media only screen and (max-width: 600px){
+/*Big smartphones [426px -> 600px]*/
+
+  .main-dashboard {
+    max-width: 95%;
+    margin: 0px auto;
+    box-sizing: border-box;
+  }
+  .card{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+  }
+  .dashboard-sidebar {
+    
+  }
+  .dashboard-wrapper {
+    max-width: 100%;
+    margin-left: 0px;
+  }
+  .chart-wrapper {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .home-box-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5px;
+  }
+  .all-product-container{
+    overflow-x: auto;
+  }
+  .add-new-wrapper {
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    box-sizing: border-box;
+    width: 100%;
+  }
+  .dashboard-body {
+    box-sizing: border-box;
+  }
+  .add-new-container {
+    box-sizing: border-box;
+  }
+  .add-new-option-box {
+    width: 100%;
+  }
+  .add-new-input-box{
+    width: 100%;
+    padding: 12px;
+  }
+  .form-group input, .form-group textarea, .add-new-input-box select, .choose-news-types select, .date-input{
+    width: 100%;
+  }
+  .accordion-list {
+    margin-top: 10px;
+    /* margin-left: 10px; */
+  }
+  .manage-menu-item {
+    margin-bottom: 40px;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0px;
+  }
+  .image-border {
+    height: 110px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+  }
+  .main-header {
+    box-shadow: 0 4px 24px 0 rgba(34, 41, 47, 0.1);
+    background: var(--white);
+    border-radius: var(--radius);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 99;
+  }
+  .accounts-overview{
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+  }
+  .account-box-item h3{
+    font-size: 12px;
+  }
+  .account-box-item{
+    padding: 13px;
+  }
+  .account-box-icon{
+    width: 65px;
+  }
+  .account-box-item h2 {
+    font-size: 20px;
+  }
+  .dashboard-wrapper.active {
+    max-width: 100%;
+    margin: unset;
+  }
+  .banner-image-ads-wrap {
+    padding: 10px;
+    padding-top: 17px;
+  }
+  .form-ads-group {
+    /* margin-top: -20px; */
+    padding: 10px;
+    margin-top: -6px;
+  }
+  .form-group label {
+    font-size: 13px;
+    color: gray;
+    display: inline-block;
+    margin-bottom: 3px;
+    font-weight: normal;
+  }
+  .banner-image-ads-wrap label {
+    color: gray;
+    font-size: 12px;
+  }
+  .menu-title {
+    top: -16px;
+    left: 10px;
+  }
+  .menu-toggle {
+    margin-top: -18px;
+    margin-right: 10px;
+  }
+}
+
+@media only screen and (max-width: 425px){
+/*Small smartphones [325px -> 425px]*/
+
+}
